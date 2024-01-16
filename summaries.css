@@ -18,6 +18,11 @@ on the container's size */
 
 }
 
+.update {
+	color:red;
+	font:tahoma;
+}
+
 h2 {
 	color:red;
 	font:tahoma;
