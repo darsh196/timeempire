@@ -107,6 +107,33 @@ padding:30px;
   font-weight: bold;
 }
 
+.pagenav {
+position: relative;
+z-index: 1;
+overflow: hidden;
+text-align: center;
+font-family: Tahoma;
+padding:10px;
+}
+
+.pagenav a {
+  color: white;
+  text-align: center;
+  padding: 10px 70px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.pagenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.pagenav a.active {
+  color: #ff9900;
+  font-weight: bold;
+}
+
 .logo-header {
   font-family: Tahoma;
   font-weight: bold;
