@@ -44,7 +44,7 @@ h1{
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 4 columns in larger screens */
+    grid-template-columns: repeat(2, 100fr); /* 4 columns in larger screens */
     grid-column-gap:0px;
     grid-row-gap: 50px;
     margin:auto;
@@ -54,15 +54,6 @@ h1{
 	transition: transform 0.3s ease; 
     max-width: 50%;
     margin:auto;
-}
-
-.image-grid h1{
-  padding-top:10%;
-  font-size: 1.5vw;
-}
-.image-grid p{
-  padding-right: 10%;
-  font-size: 1.2vw;
 }
 
 .image-container {
