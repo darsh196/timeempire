@@ -44,7 +44,7 @@ h1{
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(2, 100fr); /* 4 columns in larger screens */
+    grid-template-columns: repeat(4, 100fr); /* 4 columns in larger screens */
     grid-column-gap:0px;
     grid-row-gap: 50px;
     margin:auto;
