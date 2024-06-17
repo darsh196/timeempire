@@ -28,6 +28,15 @@ h2 {
 	font:tahoma;
 }
 
+p{
+  color: white;
+}
+
+h1{
+  color:white;
+}
+
+
 .image-grid img:hover {
     transform: scale(1.1); /* Slightly enlarges the image on hover */
     /* Other hover effects (e.g., box-shadow, border, brightness) */
@@ -35,8 +44,9 @@ h2 {
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 4 columns in larger screens */
-    grid-gap:100px;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns in larger screens */
+    column-gap:0px;
+    grid-row-gap: 50px;
     margin:auto;
 }
 
@@ -119,7 +129,7 @@ padding:10px;
 .pagenav a {
   color: white;
   text-align: center;
-  padding: 10px 70px;
+  padding: 10px 20px;
   text-decoration: none;
   font-size: 20px;
 }
