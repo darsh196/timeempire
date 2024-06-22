@@ -37,16 +37,16 @@ h1{
 }
 
 
-.image-grid img:hover {
+.image-container img:hover {
     transform: scale(1.1); /* Slightly enlarges the image on hover */
     /* Other hover effects (e.g., box-shadow, border, brightness) */
 }
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(4, 100fr); /* 4 columns in larger screens */
-    grid-column-gap:0px;
-    grid-row-gap: 50px;
+    grid-template-columns: repeat(3, 1fr); /* 4 columns in larger screens */
+    column-gap:20px;
+    grid-row-gap: 0px;
     margin:auto;
 }
 
@@ -59,11 +59,25 @@ h1{
 .image-container {
     position: relative;
     /* Add any additional styling for the image containers */
+
+}
+
+.image-container2 {
+    position: relative;
+    /* Add any additional styling for the image containers */
+
 }
 
 .image-container img {
-    width: 100%; /* Adjust as needed */
+    width: 60%; /* Adjust as needed */
     display: block;
+}
+
+.image-container2 img {
+    width: 60%; /* Adjust as needed */
+    display: block;
+    background-color: rgba(128, 128, 128, 0.5); 
+    /*transition: background-color 0.3s ease, transform 0.3s ease;*/
 }
 
 .overlay {
