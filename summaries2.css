@@ -1,31 +1,31 @@
 body{
-	font-family: Tahoma;
-  	background-image: url("images/clocks.jpg");
-  	background-repeat: no-repeat;
-  	/* Background image is centered vertically and horizontally at all times */
-	background-position: center center;
+  font-family: Tahoma;
+    background-image: url("images/clocks.jpg");
+    background-repeat: no-repeat;
+    /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
 
 /* Background image doesn't tile */
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
 
 /* Background image is fixed in the viewport so that it doesn't move when
 the content's height is greater than the image's height */
-	background-attachment: fixed;
+  background-attachment: fixed;
 
 /* This is what makes the background image rescale based
 on the container's size */
-	background-size: cover;
+  background-size: cover;
 
 }
 
 .update {
-	color:red;
-	font:tahoma;
+  color:red;
+  font:tahoma;
 }
 
 h2 {
-	color:red;
-	font:tahoma;
+  color:red;
+  font:tahoma;
 }
 
 p{
@@ -37,21 +37,21 @@ h1{
 }
 
 
-.image-grid img:hover {
+.image-container img:hover {
     transform: scale(1.1); /* Slightly enlarges the image on hover */
     /* Other hover effects (e.g., box-shadow, border, brightness) */
 }
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns in larger screens */
-    column-gap:0px;
-    grid-row-gap: 50px;
+    grid-template-columns: repeat(3, 1fr); /* 4 columns in larger screens */
+    column-gap:20px;
+    grid-row-gap: 0px;
     margin:auto;
 }
 
 .image-grid img {
-	transition: transform 0.3s ease; 
+  transition: transform 0.3s ease; 
     max-width: 80%;
     margin:auto;
 }
@@ -59,11 +59,25 @@ h1{
 .image-container {
     position: relative;
     /* Add any additional styling for the image containers */
+
+}
+
+.image-container2 {
+    position: relative;
+    /* Add any additional styling for the image containers */
+
 }
 
 .image-container img {
-    width: 100%; /* Adjust as needed */
+    width: 80%; /* Adjust as needed */
     display: block;
+}
+
+.image-container2 img {
+    width: 80%; /* Adjust as needed */
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5); 
+    /*transition: background-color 0.3s ease, transform 0.3s ease;*/
 }
 
 .overlay {
@@ -158,75 +172,75 @@ padding:10px;
 
 
 img{
-	padding-top: 50px;
+  padding-top: 50px;
 }
 
 .text{
-	color:white;
-	text-align: center;
-	float:center;
-	width:50%;
-	font-size: 20px;
+  color:white;
+  text-align: center;
+  float:center;
+  width:50%;
+  font-size: 20px;
 }
 
 .about{
-	color:#ff9900;
+  color:#ff9900;
 }
 .intro{
-	width:100%;
-	margin:auto;
-	color:red;
+  width:100%;
+  margin:auto;
+  color:red;
 }
 
 .container{
-	width:80%;
-	margin:auto;
+  width:80%;
+  margin:auto;
 }
 
 .intro2{
-	position:fixed;
-	z-index: 1;
-	left:0;
-	top:0;
-	width: 100%;
-	height:100vh;
-	background-color: black;
-	transition: 1s;
+  position:fixed;
+  z-index: 1;
+  left:0;
+  top:0;
+  width: 100%;
+  height:100vh;
+  background-color: black;
+  transition: 1s;
 }
 
 .logo-header2{
-	position: absolute;
-	font-family: Tahoma;
-	font-weight:800;
-	letter-spacing: 0.1em;
-	top:40%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	color:red;
+  position: absolute;
+  font-family: Tahoma;
+  font-weight:800;
+  letter-spacing: 0.1em;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:red;
 }
 
 .logo{
-	position:relative;
-	display:inline-block;
-	bottom:-20px;
-	opacity: 0;
-	color:red;
+  position:relative;
+  display:inline-block;
+  bottom:-20px;
+  opacity: 0;
+  color:red;
 }
 
 .logo.active{
-	bottom:0;
-	opacity: 1;
-	transition: ease-in-out 0.5s;
+  bottom:0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
 }
 
 .logo.fade{
-	bottom:150px;
-	opacity: 0;
-	transition: ease-in-out 0.5s;
+  bottom:150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
 }
 
 #main-footer {
-	margin-top:50px;
+  margin-top:50px;
     text-align: center;
     padding: 20px 0;
     font-family: tahoma;
