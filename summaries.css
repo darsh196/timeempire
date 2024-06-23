@@ -76,7 +76,7 @@ h1{
 .image-container2 img {
     width: 80%; /* Adjust as needed */
     display: block;
-    background-color: rgba(128, 128, 128, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5); 
     /*transition: background-color 0.3s ease, transform 0.3s ease;*/
 }
 
