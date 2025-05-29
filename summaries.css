@@ -73,12 +73,12 @@ h1{
     display: block;
 }
 
-/* .image-container2 img {
+.image-container2 img {
     width: 80%; /* Adjust as needed */
     display: block;
-    background-color: rgba(0, 0, 0, 0.5); 
+    /*background-color: rgba(0, 0, 0, 0.5); */
     /*transition: background-color 0.3s ease, transform 0.3s ease;*/
-} */
+}
 
 .overlay {
     position: absolute;
